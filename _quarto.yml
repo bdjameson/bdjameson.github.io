@@ -17,13 +17,13 @@ website:
         text: CV
     right:
       - icon: linkedin
-        href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+        href: https://www.linkedin.com/in/brett-jameson-phd-60123813a/
         aria-label: LinkedIn
       - icon: envelope
         href: mailto:brett.jameson@bios.asu.edu
         aria-label: Email
       - icon: github
-        href: https://github.com/YOUR-GITHUB-HANDLE
+        href: https://github.com/bdjameson
         aria-label: GitHub
 
   page-footer:
