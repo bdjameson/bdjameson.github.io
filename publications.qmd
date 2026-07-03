@@ -40,5 +40,5 @@ title: "Publications"
 
 ## Links
 
-- [Google Scholar](#)
-- [ORCID](#)
+- [Google Scholar](https://scholar.google.com/citations?user=F9emOLIAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0002-7833-0005)
