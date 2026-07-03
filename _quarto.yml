@@ -32,9 +32,7 @@ website:
 
 format:
   html:
-    theme: 
-      - cosmo
-      - styles.css
+    theme: cosmo
     css: styles.css
     toc: false
     page-layout: full
