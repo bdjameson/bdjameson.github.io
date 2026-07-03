@@ -1,8 +1,6 @@
 # Personal site starter (Quarto + GitHub Pages)
 
-This is a ready-to-go scaffold for a free personal/academic website, styled after
-sites like https://nbaetge.github.io/. Total cost: **$0/year** (or ~$12/year if
-you add a custom domain).
+This is a ready-to-go scaffold for a free personal/academic website.
 
 ## What's included
 - `_quarto.yml` — site config (navbar, theme)
