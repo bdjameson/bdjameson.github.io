@@ -1,0 +1,69 @@
+---
+title: "CV"
+---
+
+<div style="text-align:right; margin-bottom: 1em;">
+[Download PDF version](cv.pdf){.btn .btn-outline-secondary role="button"}
+</div>
+
+## Education
+
+**Ph.D., Biological Oceanography** — University of Victoria, Victoria, BC, Canada *(2023)*
+Dissertation: *"The Microbial Ecology of Nitrous Oxide Production in Marine Environments: Linking Community Dynamics to Ecosystem Processes."* Advisor: Dr. S. Kim Juniper.
+
+**B.Sc. (Hons.), Marine Biology** — Dalhousie University, Halifax, NS, Canada *(2016)*
+GPA 4.2/4.3. Honours thesis: *"The Effects of Ocean Acidification and Increased CO₂ Partial Pressure on Coral Primary Productivity in a Flume Mesocosm."* Advisor: Dr. Alan Pinder.
+
+## Academic positions
+
+**Research Fellow** — Marine Microbial Systems Lab, BIOS-SCOPE Research Group, Bermuda Institute of Ocean Sciences (ASU-BIOS) *(2026–present)*
+
+**Postdoctoral Scientist** *(2023–2026)*
+Marine Benthic Ecology and Ecophysiology Lab, Bermuda Institute of Ocean Sciences (ASU-BIOS)
+
+**PhD Candidate** *(2017–2023)*
+Microbial Ecology Lab, School of Earth and Ocean Sciences, University of Victoria
+
+**Research Assistant** *(2016)* — Marine Microbiology Lab, BIOS
+**Canadian Associates of BIOS Summer Research Associate** *(2015)* — Coral Reef Ecology and Optics Lab, BIOS
+
+## Research grants & funding
+
+- **Cawthorn Award** — $15,000 USD, ASU-BIOS *(2025)* — design & pilot of new summer microbial ecology course
+- **University of Victoria Fellowship** — $31,500 CAD *(2018–2022)*
+- **NSERC Canadian Graduate Scholarship (CGS-M)** — $17,500 CAD *(2017)*
+- **CABIOS Summer Research Grant** — $25,000 CAD *(2015 / 2020)*
+
+## Selected honours & awards
+
+M.A. & D.E. Breckenridge Graduate Award · Donald Wagg Graduate Scholarship · Alexander & Helen Stafford MacCarthy Muir Graduate Scholarship (all UVic FGS, 2021) · Alfred and Adriana Potvin Graduate Scholarship in Ocean Sciences (2019) · University of Victoria Graduate Award (2017–2019) · Hugh P. Bell Award, highest undergraduate GPA, Dalhousie Biology (2016) · Hua and Yoh Prize (2016)
+
+## Curriculum development
+
+**Co-Developer & Instructor**, Marine Microbial Ecology (BIOS Summer Course) *(2024–present)*
+Co-conceptualized, co-designed, and implemented a new summer course for ASU-BIOS. Awarded a pilot grant to design and test the course in 2025; the successful pilot led to the inaugural full course offering in summer 2026.
+
+**Curriculum Designer & Instructor**, Biological Oceanography (BIOS Spring Semester Program) *(2026)*
+Designed all course materials, including lectures, field exercises, and laboratory exercises; now serving as official course instructor.
+
+## Teaching
+
+**Course Instructor**, Marine Microbial Ecology (MME), BIOS *(2026)* · **Course Instructor**, Biological Oceanography & Marine Ecology (BOME), BIOS *(2026)* · **Co-Instructor**, Coral Reef Ecology Summer Course, BIOS *(2025)* · **Sessional Lecturer**, Understanding the Oceans (EOS 350), UVic *(2022)* · **Lab Instructor**, Biological Oceanography (BIOL 311), UVic *(2018, 2021–2022)* · **Teaching Assistant Coordinator**, UVic *(2019–2020)*
+
+## Mentorship & supervision
+
+Unofficial co-supervisor to graduate students at McGill and ASU; project mentor/director to numerous NSF-BIOS REU, CABIOS, and Bermuda Program undergraduate interns, 2023–2026 (full list on request).
+
+## Skills & certifications
+
+**Field & technical:** Trace-gas microsensors, 16S rRNA network analysis, numerical modelling, benthic sediment biogeochemistry, coral and mangrove ecosystem fieldwork
+
+**Diving:** AAUS Scientific Diver (Active, 100 ft rating, 200+ dives) · PADI Rescue Diver · PADI Emergency Oxygen Provision · DAN Emergency First Response & CPR
+
+**Peer review:** Communications Earth and Environment, Communications Biology, JGR: Biogeosciences, Frontiers in Marine Science, Limnology and Oceanography, L&O Letters, Oceanologia
+
+---
+
+::: {.callout-tip appearance="simple"}
+This page summarizes the highlights. Drop your full `cv.pdf` into the project root and the download button above will link straight to it — good for the complete publication, presentation, and mentorship lists.
+:::

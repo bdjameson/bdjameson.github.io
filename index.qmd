@@ -1,0 +1,41 @@
+---
+title: ""
+format:
+  html:
+    page-layout: article
+---
+
+::: {.hero}
+
+# Brett D. Jameson, PhD
+
+**Microbial Oceanographer · Bermuda Institute of Ocean Sciences**
+
+Every drop of seawater contains over a million microbial cells representing hundreds of species. Together, these microscopic life forms recycle essential nutrients, drive chemical transformations that regulate Earth's climate, and sustain the planet's habitability. Despite their fundamental importance to every ecosystem on Earth, the vast majority of microbial species and their roles as ecosystem engineers remain unknown.
+
+I am a Research Fellow at the Bermuda Institute of Ocean Sciences (BIOS-SCOPE Research Group, Arizona State University), studying how environmental variability and climate-driven disturbances reshape microbial community structure, metabolic networks, and biogeochemical cycles. My work spans diverse marine ecosystems — from oxygen-deficient zones to mangrove sediments and coral reefs — seeking to uncover the metabolic and ecological traits that drive microbial community assembly, interactions, and biogeochemical cycling.
+
+[Get in touch →](mailto:brett.jameson@bios.asu.edu){.btn .btn-primary}
+
+:::
+
+## What I work on
+
+::: {.grid}
+
+::: {.g-col-4}
+### 🌊 Microbial Ecology
+Community assembly, keystone taxa, and network analysis of marine microbiomes across oxygen minimum zones, mangroves, and coral reefs.
+:::
+
+::: {.g-col-4}
+### 🔄 Biogeochemical Cycling
+Nitrous oxide production and consumption in marine sediments and water columns — linking microbial community dynamics to greenhouse gas flux.
+:::
+
+::: {.g-col-4}
+### 🐠 Climate Disturbance
+How marine heatwaves, hurricanes, and hypoxia reshape coral, mangrove, and benthic ecosystem function and resilience.
+:::
+
+:::
