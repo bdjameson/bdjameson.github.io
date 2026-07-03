@@ -19,6 +19,9 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/brett-jameson-phd-60123813a/
         aria-label: LinkedIn
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=F9emOLIAAAAJ&hl=en
+        aria-label: Google Scholar
       - icon: envelope
         href: mailto:brett.jameson@bios.asu.edu
         aria-label: Email
@@ -37,7 +40,7 @@ format:
     toc: false
     page-layout: full
     fontsize: 1.05em
-    linkcolor: "#2c5f8a"
+    linkcolor: "#0f3550"
 
 execute:
   freeze: auto
