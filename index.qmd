@@ -4,6 +4,8 @@ title: ""
 
 ::: {.hero}
 
+<img src="images/portrait.jpg" alt="Brett Jameson" class="hero-portrait">
+
 # Brett D. Jameson, PhD
 
 **Microbial Oceanographer · Bermuda Institute of Ocean Sciences**
@@ -42,3 +44,8 @@ How marine heatwaves, hurricanes, and hypoxia reshape coral, mangrove, and benth
 :::
 
 :::
+
+<figure class="closer-figure">
+  <img src="images/ukulele.jpg" alt="Playing ukulele on deck at sunset">
+  <figcaption>At sea, off shift.</figcaption>
+</figure>
