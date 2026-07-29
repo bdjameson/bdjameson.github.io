@@ -1,4 +1,9 @@
-/* Water column theme for Brett Jameson site */
+/* =========================================================
+   Brett D. Jameson — personal site
+   "Water column" concept: hero mimics light attenuation with
+   ocean depth; field-notebook mono voice for data/labels.
+   ========================================================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap');
 
 :root {
@@ -6,13 +11,16 @@
   --ink:          #17242c;
   --ink-soft:     #4a5a62;
   --abyss:        #0b1d29;
-  --abyss-mid:    #0f3550;
+  --abyss-mid:    #1c4d73;   /* lightened from earlier draft so it reads as navy, not black */
   --surface-glow: #2ea89a;
   --accent-warm:  #c1652f;
   --rule:         #dcd7ca;
+  --content-max:  980px;
 }
 
 * { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Source Sans 3', -apple-system, "Segoe UI", sans-serif;
@@ -27,6 +35,19 @@ h1, h2, h3, .navbar-title {
   letter-spacing: -0.01em;
 }
 
+/* ---------- Global content width ----------
+   Every page (About, Research, Publications, CV) gets the same
+   readable measure, so the hero/cards on About line up exactly
+   with the text columns on every other page. */
+.quarto-title-block,
+main.content,
+#quarto-document-content {
+  max-width: var(--content-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Navbar ---------- */
 .navbar {
   background-color: var(--surface) !important;
   border-bottom: 1px solid var(--rule);
@@ -52,6 +73,7 @@ h1, h2, h3, .navbar-title {
   color: var(--surface-glow) !important;
 }
 
+/* ---------- Hero: the water column ---------- */
 .hero {
   max-width: 100%;
   margin: -1.5rem calc(-50vw + 50%) 3rem calc(-50vw + 50%);
@@ -85,7 +107,7 @@ h1, h2, h3, .navbar-title {
 }
 
 .hero > * {
-  max-width: 680px;
+  max-width: var(--content-max);
   margin-left: auto;
   margin-right: auto;
 }
@@ -110,6 +132,7 @@ h1, h2, h3, .navbar-title {
 .hero p { color: #d8e6e3; }
 .hero p strong { color: #ffffff; font-weight: 500; }
 
+/* ---------- Buttons ---------- */
 .btn-primary {
   background-color: var(--surface-glow);
   border-color: var(--surface-glow);
@@ -136,6 +159,8 @@ h1, h2, h3, .navbar-title {
   color: var(--ink-soft);
 }
 
+/* ---------- Section headings ----------
+   No "//" prefix — plain, quiet rule underneath instead. */
 h2 {
   font-size: 1.5rem;
   font-weight: 500;
@@ -143,20 +168,18 @@ h2 {
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--rule);
-  position: relative;
 }
 
-h2::before {
-  content: "// ";
-  font-family: 'IBM Plex Mono', monospace;
-  color: var(--surface-glow);
+h3 {
+  font-size: 1.15rem;
   font-weight: 500;
 }
 
+/* ---------- "What I work on" cards ---------- */
 .grid { gap: 1rem; }
 
 .g-col-4 {
-  padding: 1.4rem 1.3rem;
+  padding: 1.5rem 1.4rem 1.4rem 1.4rem;
   background: #ffffff;
   border: 1px solid var(--rule);
   border-top: 3px solid var(--surface-glow);
@@ -166,8 +189,16 @@ h2::before {
 .g-col-4:nth-child(2) { border-top-color: var(--accent-warm); }
 .g-col-4:nth-child(3) { border-top-color: var(--abyss-mid); }
 
+.card-index {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
 .g-col-4 h3 {
-  font-size: 1.05rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -178,16 +209,23 @@ h2::before {
   margin-bottom: 0;
 }
 
+/* ---------- Body links ---------- */
 a { color: var(--abyss-mid); }
 a:hover { color: var(--surface-glow); }
 
 strong { color: var(--ink); }
 
+/* ---------- Callouts ---------- */
 .callout {
   border-left: 3px solid var(--surface-glow);
   background: #eef2ee;
 }
 
+/* ---------- CV-style entry lists (used on cv.qmd) ---------- */
+main p, main li { max-width: 72ch; }
+main .grid p, main .g-col-4 p { max-width: none; }
+
+/* ---------- Footer ---------- */
 .page-footer {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 0.75rem;
@@ -197,11 +235,13 @@ strong { color: var(--ink); }
   margin-top: 4rem;
 }
 
+/* ---------- Responsive ---------- */
 @media (max-width: 700px) {
   .hero h1 { font-size: 2rem; }
   .hero { padding: 3.5rem 1.25rem 3rem 1.25rem; }
+  .g-col-4 { margin-bottom: 0.75rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  * { scroll-behavior: auto !important; }
+  html { scroll-behavior: auto; }
 }
