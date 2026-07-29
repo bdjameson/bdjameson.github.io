@@ -245,3 +245,20 @@ main .grid p, main .g-col-4 p { max-width: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* ---------- Neutralize Quarto's grid layout ----------
+   Quarto's website template wraps content in a CSS Grid with
+   several named columns (for margin notes, asides, etc.) that
+   can leave unclaimed space even in page-layout: full. We don't
+   need that system for this simple site, so collapse it to a
+   normal block layout and center manually. */
+#quarto-content.page-columns,
+.page-columns.page-rows-contents {
+  display: block !important;
+}
+
+#quarto-document-content {
+  max-width: var(--content-max);
+  margin: 0 auto !important;
+  padding: 0 1.5rem;
+}
