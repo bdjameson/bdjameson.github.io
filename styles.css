@@ -246,19 +246,124 @@ main .grid p, main .g-col-4 p { max-width: none; }
   html { scroll-behavior: auto; }
 }
 
-/* ---------- Neutralize Quarto's grid layout ----------
-   Quarto's website template wraps content in a CSS Grid with
-   several named columns (for margin notes, asides, etc.) that
-   can leave unclaimed space even in page-layout: full. We don't
-   need that system for this simple site, so collapse it to a
-   normal block layout and center manually. */
-#quarto-content.page-columns,
-.page-columns.page-rows-contents {
-  display: block !important;
+/* ---------- Photography ---------- */
+
+/* Hero portrait */
+.hero-portrait {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(238, 246, 244, 0.35);
+  float: right;
+  margin: 0.25rem 0 1rem 1.5rem;
 }
 
-#quarto-document-content {
+/* Full-width banner image (top of Research page) */
+.banner-figure {
+  margin: -1rem calc(-50vw + 50%) 2.5rem calc(-50vw + 50%);
+}
+
+.banner-figure img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.banner-figure figcaption {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  text-align: right;
+  padding: 0.5rem var(--content-max) 0 0;
   max-width: var(--content-max);
-  margin: 0 auto !important;
-  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+/* Fieldwork photo grid */
+.field-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.field-photos figure {
+  margin: 0;
+}
+
+.field-photos img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+  display: block;
+}
+
+.field-photos figcaption {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  margin-top: 0.5rem;
+  letter-spacing: 0.01em;
+}
+
+/* Single inset image within text flow */
+.inset-figure {
+  float: right;
+  width: 45%;
+  margin: 0.25rem 0 1rem 1.5rem;
+}
+
+.inset-figure img {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+  display: block;
+}
+
+.inset-figure figcaption {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+  margin-top: 0.4rem;
+}
+
+/* Closer image (About page footer) */
+.closer-figure {
+  max-width: 480px;
+  margin: 3rem auto 1rem auto;
+  text-align: center;
+}
+
+.closer-figure img {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+  display: block;
+}
+
+.closer-figure figcaption {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  margin-top: 0.6rem;
+}
+
+@media (max-width: 700px) {
+  .hero-portrait {
+    float: none;
+    display: block;
+    margin: 0 0 1.25rem 0;
+  }
+  .field-photos {
+    grid-template-columns: 1fr;
+  }
+  .inset-figure {
+    float: none;
+    width: 100%;
+    margin: 1rem 0;
+  }
 }
