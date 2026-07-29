@@ -19,7 +19,7 @@ I am a Research Fellow at the Bermuda Institute of Ocean Sciences (BIOS-SCOPE Re
 
 :::
 
-## What I work on
+# What I work on
 
 ::: {.grid}
 

@@ -12,7 +12,7 @@ title: "CV"
 Dissertation: *"The Microbial Ecology of Nitrous Oxide Production in Marine Environments: Linking Community Dynamics to Ecosystem Processes."* Advisor: Dr. S. Kim Juniper.
 
 **B.Sc. (Hons.), Marine Biology** — Dalhousie University, Halifax, NS, Canada *(2016)*
-GPA 4.2/4.3. Honours thesis: *"The Effects of Ocean Acidification and Increased CO₂ Partial Pressure on Coral Primary Productivity in a Flume Mesocosm."* Advisor: Dr. Alan Pinder.
+Honours Thesis: *"The Effects of Ocean Acidification and Increased CO₂ Partial Pressure on Coral Primary Productivity in a Flume Mesocosm."* Advisor: Dr. Alan Pinder.
 
 ## Academic positions
 
@@ -64,6 +64,3 @@ Unofficial co-supervisor to graduate students at McGill and ASU; project mentor/
 
 ---
 
-::: {.callout-tip appearance="simple"}
-This page summarizes the highlights. Drop your full `cv.pdf` into the project root and the download button above will link straight to it — good for the complete publication, presentation, and mentorship lists.
-:::
